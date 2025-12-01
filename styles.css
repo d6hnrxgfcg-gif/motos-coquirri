@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b1020;
+    color: #f1f5ff;
+    text-align: center;
+}
+
+/* Encabezado */
+
+.header {
+    background: #020617;
+    padding: 16px 10px 22px 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.logo {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.titulo {
+    display: block;
+    margin: 10px auto 0 auto;
+    max-width: 320px;
+}
+
+/* Contenido principal */
+
+.contenido {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 16px 16px 16px;
+}
+
+.contenido h1 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.slogan {
+    font-size: 18px;
+    margin: 4px 0 18px 0;
+    font-weight: bold;
+    color: #7dd3fc;
+}
+
+.info, .servicios, .galeria {
+    background: rgba(15,23,42,0.9);
+    border-radius: 16px;
+    padding: 18px 16px;
+    margin-top: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    text-align: left;
+}
+
+.info h2, .servicios h2, .galeria h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.servicios ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.servicios li {
+    margin: 6px 0;
+}
+
+.moto {
+    display: block;
+    max-width: 420px;
+    width: 100%;
+    margin: 10px auto 0 auto;
+    border-radius: 12px;
+}
+
+/* Sección QR */
+
+.qr-section {
+    margin: 30px auto;
+    padding: 18px 16px 28px 16px;
+    max-width: 900px;
+    background: rgba(15,23,42,0.9);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.qr {
+    width: 220px;
+    height: 220px;
+}
+
+.nota-qr {
+    font-size: 13px;
+    color: #cbd5f5;
+}
+
+/* Pie de página */
+
+.footer {
+    padding: 16px;
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    .logo {
+        width: 70px;
+    }
+    .titulo {
+        max-width: 260px;
+    }
+    .contenido h1 {
+        font-size: 24px;
+    }
+}
